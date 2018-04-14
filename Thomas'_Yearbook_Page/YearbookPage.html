@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>"All I do is GOLF"</title>
+    <style>
+        * {
+            background: white;
+            border: 0px;
+        }
+
+        .Container {
+            width: 1040px;
+            padding: 10px;
+            background: white;
+            border: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 0em;
+            border: 5px solid black;
+        }
+
+            .Container > div:nth-child(n) {
+                border: 5px;
+                margin: 5px;
+                padding: 5px;
+            }
+
+        .Left_body {
+            width: 500px;
+        }
+
+        .Coach_Pics {
+            padding: 10px;
+            background: white;
+            border: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 0em;
+        }
+
+
+
+        #First_line_in_all_i_do {
+            text-align-last: center;
+            width: auto;
+            height: auto;
+            transform: translateY(50px) scale(1,1.5);
+            padding-top: 0px;
+        }
+
+        #First_quote {
+            font-family: sans-serif;
+            font-weight: bold;
+            background-color: dimgray;
+            color: white;
+            padding-top: 9px;
+            font-size: 60px;
+            padding-left: 10px;
+            padding-bottom: 3px;
+        }
+
+        #All {
+            font-style: italic;
+            color: white;
+            background-color: dimgray;
+            color: #ffffff;
+            font-family: Arial;
+            font-weight: 100;
+            font-size: 60px;
+            font-style: italic;
+            padding-top: 9px;
+            padding-bottom: 3px;
+        }
+
+        #I {
+            font-style: normal;
+            color: white;
+            background-color: dimgray;
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 70px;
+            font-style: normal;
+            font-weight: normal;
+            -webkit-transform: rotate(90deg);
+        }
+
+        #Do {
+            color: white;
+            background-color: dimgray;
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 60px;
+            font-style: normal;
+            padding-top: 9px;
+            padding-right: 10px;
+            font-weight: normal;
+            padding-bottom: 3px;
+        }
+
+        #Is {
+            font-style: italic;
+            color: white;
+            background-color: dimgray;
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 40px;
+            padding-top: 2px;
+            padding-left: 136px;
+            padding-bottom: 45.5px;
+            vertical-align: top;
+            font-weight: normal;
+        }
+
+        #Golf {
+            font-style: normal;
+            color: white;
+            background-color: dimgray;
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 80px;
+            font-style: normal;
+            padding-right: 50px;
+            padding-top: 4px;
+            font-weight: bold;
+            vertical-align: top;
+        }
+
+        #SendP {
+            background-color: #96bfbf;
+            border-width: 0px;
+            color: white;
+            font-family: "Ostrich Sans Black", sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: normal;
+            text-align: right;
+            padding-right: 10px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            padding-left: 10px;
+            font-style: italic;
+        }
+
+        #empty {
+            height: 80px;
+        }
+
+        #A {
+            width: 1px;
+            height: 1px;
+            /*left: 230px;
+            top: 320px;
+            position: absolute;
+            z-index: 1;
+                */
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            font-family: Arial;
+            transform: translate(60px,-10px) scaleY(2);
+            opacity: 0.5;
+            color: #87abab;
+        }
+
+        #Main_Text {
+            margin-left: 75px;
+            z-index: 2
+        }
+
+        .box {
+            width: 300px;
+            height: 4px;
+            background-color: #4a8991;
+        }
+
+        .Coach {
+        }
+
+        .Coach_Text {
+            padding-left: 150px;
+            color: #4a8991;
+            font-weight: 100;
+            font-family: Arial;
+            margin: 0px;
+        }
+
+        .pics {
+            padding-left: 50px;
+        }
+
+        .names {
+            padding-left: 150px;
+            color: black;
+            font-weight: 100;
+            font-family: Arial;
+            margin: 0px;
+            padding-top: 10px;
+        }
+
+        #Spring {
+            padding-left:20px;
+            padding-right:20px;
+            position: absolute;
+            transform: rotate(90deg);
+            background-color: #57525e;
+            top:1262px;
+            left:5px;
+        }
+        #Spring_text {
+            background-color: #57525e;
+            font-style:italic;
+            font-size:20px;
+            color:white;
+            font-family:Arial;
+        }
+        #four {
+            padding-right: 40px;
+            position: absolute;
+            transform: rotate(90deg);
+            background-color: #57525e;
+            top: 1362px;
+            left: 17px;
+
+        }
+
+        #four_text {
+            background-color: #57525e;
+            font-style: italic;
+            font-size: 20px;
+            color: white;
+            font-family: Arial;
+        }
+        #rightPic{
+            transform:scale(1,1.25) translateY(105px);
+        }
+    </style>
+</head>
+<body>
+    <div id="Spring">
+        <p id="Spring_text">Spring</p>
+    </div>
+    <div id="four">
+        <p id="four_text">040</p>
+    </div>
+    <div class="Container">
+        <div class="Left_body">
+            <div id="All i do is golf">
+                <p id="First_line_in_all_i_do">
+                    <span id="First_quote">"</span><span id="All">All </span><span id="I">| </span><span id="Do">DO </span>
+                    <br /><span id="Is">is </span><span id="Golf">GOLF."</span>
+                </p>
+            </div>
+            <div id="empty">
+            </div>
+            <div id="Send">
+                <p id="SendP">Boys' gold sends Trasser to state</p>
+            </div>
+            <div id="Main_Content">
+                <div id="A">
+                    <p id="AP">A</p>
+                </div>
+                <div id="Main_Text">
+                    <p id="main paragraph">
+                        After qualifying for state in the 2014, the Brookfield Central
+                        Boys golf team took a huge hit, losing 60 percent of their
+                        starting lineup. The only returning members were Sean
+                        Yun (‘16) and Josh Trasser (‘16). The three vacant spots in the
+                        lineup were filled up by Kevin Hershberger (‘16), Brandon
+                        Talaska (‘17), and Zach Mindel (‘18). Even with the huge
+                        change, the boys began the season with the same goals as
+                        the previous year: win conference, qualify for state, and be
+                        successful.<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;The future of the team might have looked bleak to most,
+                        but Yun never doubted them. “We had many guys from last
+                        year’s reserve team that were ready to play,” He said. Talaska
+                        agreed, "I was so motivated to work my heart out and
+                        improve, as did everyone else."<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;With this attitude, the team approached every
+                        opportunity as positively as it could. Even though the boys
+                        did not meet the first two goals on the list, they were still
+                        able to achieve the third. They might not have placed first
+                        in the GMC, but all of the athletes achieved new personal
+                        bests in their high school careers. Talaska had a 39 at the
+                        3rd Conference mini-meet, Mindel an 83 at sectionals,
+                        Hershberger a 79 at regionals, and Yun a 74 at the Waukesha
+                        County Championship. They might not have qualified for
+                        state, but they sent Trasser, who, after shooting his career-
+                        best 76 at sectionals, moved on as an individual. He finished
+                        the season ranked 21st in the Wisconsin.<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;Looking back, Yun and Talaska were not disappointed.
+                        Yun explained, “Although struggled, we are proud of our
+                        season. We worked hard and will continue to work hard and
+                        even better next year.”"
+                    </p>
+                    <p align=right id="Taylor moon">
+                        //TAYLOR MOON
+                    </p>
+                </div>
+                <div class="Coach_Pics">
+                    <div class="Coach">
+                        <h1 class="Coach_Text">CAPTIN</h1>
+                        <div class="box">
+                        </div>
+                        <h3 class="names">Sean Yun</h3>
+                    </div>
+                    <div>
+                        <img class="pics" src="IMG_8401.jpg" />
+                    </div>
+
+                    <div class="Coach">
+                        <h1 class="Coach_Text">COACHES</h1>
+                        <div class="box">
+                        </div>
+                        <h3 class="names">Brian Scrobel</h3class="names">
+                    </div>
+                    <div>
+                        <img class="pics" src="IMG_8404.jpg" />
+                    </div>
+                    <div class="Coach">
+                        <h1 class="Coach_Text">MVP</h1>
+                        <div class="box">
+                        </div>
+                        <h3 class="names">Sean Yun</h3>
+                    </div>
+                    <div>
+                        <img class="pics" src="IMG_8354.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>    <div class="Right Body">
+            <div id="Big Pic">
+                <img src="IMG_8398.jpg" width="500" id="rightPic" alt="Big pic on the right" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
