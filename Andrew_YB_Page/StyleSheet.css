@@ -1,0 +1,123 @@
+﻿.headerText {
+    font-family: Calibri;
+    text-align: right;
+    font-size: 52pt;
+    font-weight: 100;
+    letter-spacing: 6pt;
+}
+.higherTextHead{
+    position: absolute;
+    top: 30px;
+    right:400px;
+}
+.bigHeaderText {
+    font-size: 125pt;
+    letter-spacing: initial;
+    text-decoration: underline;
+}
+.blueColor {
+    color: #4292f4;
+}
+.tanColor {
+    color: #ffd9a8;
+}
+.bodyText{
+    font-family: Arial;
+    color:black;
+}
+
+#header {
+    position: absolute;
+    right: 225px;
+}
+#headParagraph{
+    
+}
+#para {
+    position: absolute;
+    right: 400px;
+    top: 100px;
+    width: 300px;
+
+}
+.paro {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#droptop{
+   position: absolute;
+   right: 700px;
+}
+#pictur{
+  width: 100px;
+  height: 200px;
+}
+#BackgroundPic {
+    position: absolute;
+    top: 255px;
+    left: 75px;
+}
+#textoboi {
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+#WhiteBox {
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    height: 400px;
+    top: 500px;
+    right: 400px;
+}
+.column {
+    float: left;
+    width: 48%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#A{
+    font-family: Arial;
+    font-size: 36pt;
+    color:red;
+    opacity: 0.4;
+    position: absolute;
+    font-weight: 800;
+    top: 30px;
+    left: 4px;
+}
+#tanLine {
+    position: absolute;
+    opacity: 1.0;
+    right: 300px;
+    left: 0px;
+    top: 850px;
+    width: 1300px;
+    height: 15px;
+    background-color: #ffd9a8;
+}
+#redLine {
+    position: absolute;
+    opacity: 1.0;
+    right: 300px;
+    left: 0px;
+    top: 865px;
+    width: 1100px;
+    height: 15px;
+    background-color:darkred;
+}
+#bottomBoi {
+    position: absolute;
+    opacity: 1.0;
+    right: 300px;
+    left: 0px;
+    top: 865px;
+    width: 80.5px;
+    height: 179px;
+    background-color: #4292f4;
+}
